@@ -51,6 +51,7 @@ nav {
     font-size: 18px;
     font-family: helvetica, arial, serif;
 }
+
 .border-right {
     border-right: 1px solid #ddd;
 }
@@ -66,14 +67,17 @@ nav {
 
 main {
     background-color: #fff;
-    width: 55%;
+    width: 90%;
     height: 100%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 20px;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-left: 0;
+    margin-bottom: 100px;
     position: relative;
     float: left;
+
 }
 
 main > h2 {
@@ -81,6 +85,8 @@ main > h2 {
     color:#4aaaa5;
     font-size: 35px;
     padding-bottom: 25px;
+    padding-top: 25px;
+
 }
 
 main > img {
@@ -117,9 +123,9 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+}
   
-  textarea {
+textarea {
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -129,9 +135,9 @@ input[type=text] {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
-  }
+}
   
-  input[type=submit]{
+input[type=submit] {
       background-color: #4aaaa5;
     border: none;
     color: white;
@@ -139,9 +145,11 @@ input[type=text] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
   
-  .display-left{
+  
+
+.display-left {
 
     display: inline-block;
     position: relative;
@@ -149,18 +157,21 @@ input[type=text] {
 
 }
 
-.display-right{
+.display-right {
 
     display: inline-block;
     position: relative;
-    float: right;
+    float: left;
+    
 }
 
 .left {
 
     height: 194px;
-    width: 200px;
+    width: 250px;
     padding: 20px 30px 20px 0px;
+    margin-right: 60px;
+    margin-bottom: 45px;
     float: left;
     
 
@@ -170,9 +181,11 @@ input[type=text] {
 .right { 
 
     height: 194px;
-    width: 200px;
+    width: 250px;
     padding: 20px 30px 20px 0px;
-    float: right;
+    margin-right: 60px;
+    margin-bottom: 45px;
+    float: left;
 
 }
 
@@ -180,7 +193,7 @@ input[type=text] {
 
     background: #4aaaa5;
     color: white;
-    width: 200px;
+    width: 250px;
     text-align: center;
     font-size: 16px;
     z-index: 2;
@@ -188,4 +201,5 @@ input[type=text] {
     height: 50px;
     line-height: 50px;
     bottom: 25px;
+    
 }
